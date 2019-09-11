@@ -7,3 +7,4 @@ do
 	echo "$line" > /dev/ttyUSB1
   	sleep .5;
 done < "$input"
+echo $(head -n 1 /dev/ttyUSB1)
